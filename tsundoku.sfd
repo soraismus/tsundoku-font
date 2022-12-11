@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
-FontName: Untitled1
-FullName: Untitled1
-FamilyName: Untitled1
+FontName: tsundoku
+FullName: tsundoku
+FamilyName: tsundoku
 Weight: Regular
 Copyright: Copyright (c) 2022, polytope
 UComments: "2022-12-11: Created with FontForge (http://fontforge.org)"
@@ -16,16 +16,18 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 XUID: [1021 277 -547009472 1697208]
+StyleMap: 0x0000
+FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1670785679
-ModificationTime: 1670787468
+ModificationTime: 1670788135
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 0
+OS2TypoLinegap: 90
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -35,6 +37,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeFull
 UnicodeInterp: none
@@ -43,6 +46,8 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 57342 38 14
+BeginPrivate: 0
+EndPrivate
 BeginChars: 1114112 5
 
 StartChar: uniE000
@@ -59,6 +64,7 @@ SplineSet
  75 266 l 1
  75 344 l 1
 EndSplineSet
+Validated: 1
 Comment: "tsundoku-e000-the"
 EndChar
 
@@ -66,23 +72,24 @@ StartChar: uniE001
 Encoding: 57345 57345 1
 Width: 656
 VWidth: 500
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-500.197265625 726.131835938 m 1
- 107.401367188 -24.8408203125 l 1
- 155.801757812 -49.4970703125 l 1
+500 726 m 5
  548.598632812 701.474609375 l 1
- 500.197265625 726.131835938 l 1
+ 155.801757812 -49.4970703125 l 1
+ 107.401367188 -24.8408203125 l 1
+ 500 726 l 5
   Spiro
-    500.197 726.132 v
-    107.401 -24.841 v
-    155.801 -49.4972 v
     548.598 701.475 v
+    155.801 -49.4972 v
+    107.401 -24.841 v
+    500.197 726.132 v
     0 0 z
   EndSpiro
 EndSplineSet
+Validated: 1
 Comment: "tsundoku-e001-of"
 EndChar
 
@@ -102,6 +109,7 @@ SplineSet
  88 332 l 1
  86 382 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uniE003
@@ -112,24 +120,30 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-504 570 m 1
- 502 70 l 1
- 100 368 l 17
- 100.836914062 360.744140625 95.7587890625 404.755859375 94 420 c 1
- 726 408 l 1
- 730 350 l 1
+399.617374227 357.369129199 m 1
  192 362 l 1
  402 216 l 1
+ 399.617374227 357.369129199 l 1
+398.659292193 414.215329895 m 1
  396 572 l 1
  504 570 l 1
+ 503.36890869 412.22717262 l 1
+ 726 408 l 1
+ 730 350 l 1
+ 503.140240276 355.06006899 l 1
+ 502 70 l 1
+ 100 368 l 1
+ 100 368 95.7587890625 404.755859375 94 420 c 1
+ 398.659292193 414.215329895 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uniE004
 Encoding: 57348 57348 4
 Width: 656
 VWidth: 400
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -146,6 +160,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
