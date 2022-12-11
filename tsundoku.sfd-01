@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1670785679
-ModificationTime: 1670788299
+ModificationTime: 1670790483
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeFull
@@ -44,10 +45,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 57342 38 14
+WinInfo: 57304 38 14
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114112 5
+BeginChars: 1114112 7
 
 StartChar: uniE000
 Encoding: 57344 57344 0
@@ -63,7 +64,6 @@ SplineSet
  77 272 l 1
  77 352 l 1
 EndSplineSet
-Validated: 1
 Comment: "tsundoku-e000-the"
 EndChar
 
@@ -81,7 +81,6 @@ SplineSet
  110 -25 l 1
  512 743 l 5
 EndSplineSet
-Validated: 1
 Comment: "tsundoku-e001-of"
 EndChar
 
@@ -101,7 +100,7 @@ SplineSet
  90 340 l 1
  88 391 l 1
 EndSplineSet
-Validated: 1
+Comment: "tsundoku-e002-to"
 EndChar
 
 StartChar: uniE003
@@ -128,7 +127,7 @@ SplineSet
  102 377 98 414 96 430 c 1
  408 424 l 1
 EndSplineSet
-Validated: 1
+Comment: "tsundoku-e003-a/an"
 EndChar
 
 StartChar: uniE004
@@ -145,7 +144,43 @@ SplineSet
  562 -63 l 1
  512 -88 l 1
 EndSplineSet
-Validated: 1
+Comment: "tsundoku-e004-in"
+EndChar
+
+StartChar: uniE005
+Encoding: 57349 57349 5
+Width: 1024
+VWidth: 974
+Flags: HO
+LayerCount: 2
+Fore
+SplineSet
+290 312.599609375 m 4
+ 290 448.391601562 389.456054688 558.599609375 512 558.599609375 c 4
+ 634.543945312 558.599609375 734 448.391601562 734 312.599609375 c 4
+ 734 176.807617188 634.543945312 66.599609375 512 66.599609375 c 4
+ 389.456054688 66.599609375 290 176.807617188 290 312.599609375 c 4
+338 318.599609375 m 0
+ 338 210.408203125 415.055664062 122.599609375 510 122.599609375 c 0
+ 604.944335938 122.599609375 682 210.408203125 682 318.599609375 c 0
+ 682 426.791992188 604.944335938 514.599609375 510 514.599609375 c 0
+ 415.055664062 514.599609375 338 426.791992188 338 318.599609375 c 0
+EndSplineSet
+EndChar
+
+StartChar: uniE006
+Encoding: 57350 57350 6
+Width: 1024
+Flags: H
+LayerCount: 2
+Back
+SplineSet
+363 314.600006104 m 4
+ 363 377.528006104 414.072 428.600006104 477 428.600006104 c 4
+ 539.928 428.600006104 591 377.528006104 591 314.600006104 c 4
+ 591 251.672006104 539.928 200.600006104 477 200.600006104 c 4
+ 414.072 200.600006104 363 251.672006104 363 314.600006104 c 4
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
