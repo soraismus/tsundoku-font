@@ -127,7 +127,7 @@ SplineSet
  102 377 98 414 96 430 c 1
  408 424 l 1
 EndSplineSet
-Comment: "tsundoku-e003-a/an"
+Comment: "tsundoku-e003-and"
 EndChar
 
 StartChar: uniE004
@@ -144,7 +144,7 @@ SplineSet
  562 -63 l 1
  512 -88 l 1
 EndSplineSet
-Comment: "tsundoku-e004-in"
+Comment: "tsundoku-e004-a/an"
 EndChar
 
 StartChar: uniE005
@@ -166,6 +166,7 @@ SplineSet
  682 426.791992188 604.944335938 514.599609375 510 514.599609375 c 0
  415.055664062 514.599609375 338 426.791992188 338 318.599609375 c 0
 EndSplineSet
+Comment: "tsundoku-e004-in"
 EndChar
 
 StartChar: uniE006
